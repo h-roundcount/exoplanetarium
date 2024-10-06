@@ -1,6 +1,6 @@
 /* Space-themed background for the entire page */
 body {
-    background: url('../static/space-background.jpg') no-repeat center center fixed;
+    background: url('C:/Users/23rou/Downloads/exoplanetarium/static/star-4773.gif') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
     margin: 0;
@@ -31,20 +31,20 @@ h1 {
     font-size: 3.5em;
     margin: 0.5em 0;
     letter-spacing: 3px;
-    color: #00d1ff;
-    text-shadow: 0 0 10px #00d1ff;
+    color: #1fd2ff;
+    /*text-shadow: 0 0 10px #1fd2ff;*/
 }
 
 /* Subheading */
 h2 {
     font-size: 2em;
     margin: 0.5em 0;
-    color: #ffcc00;
+    color: #1fd2ff;
 }
 
 /* Buttons for exoplanet selection */
 button {
-    background-color: #ff1f5a;
+    background-color: #1fd2ff;
     color: white;
     padding: 15px 30px;
     font-size: 1.2em;
@@ -55,11 +55,11 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: background 0.3s ease;
-    box-shadow: 0 0 10px rgba(255, 31, 90, 0.8);
+    box-shadow: 0 0 10px rgba(31, 221, 255, 0.8);
 }
 
 button:hover {
-    background-color: #ff5a8b;
+    background-color: #1fd2ff;
 }
 
 /* Footer */
