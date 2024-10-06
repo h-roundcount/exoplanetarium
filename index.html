@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exoplanetarium</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="C:\Users\23rou\Downloads\exoplanetarium\static\style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <style>
         body {
@@ -12,7 +12,7 @@
             background-color: black;
             color: white;
             text-align: center;
-            background-image: url('/static/star-4773.gif');
+            /*background-image: url('C:\Users\23rou\Downloads\exoplanetarium\static\star-4773.gif');*/
             background-size: cover;
         }
         h1 {
@@ -34,11 +34,12 @@
     </style>
 </head>
 <body>
+    <!--<img src="C:\Users\23rou\Downloads\exoplanetarium\static\star-4773.gif" alt="Starry background">-->
     <h1>Welcome to Exoplanetarium</h1>
     <p>Select an exoplanet to explore its sky:</p>
     <button class="planet-btn" onclick="window.location.href='/planet/kepler-22b'">Kepler-22b</button>
     <button class="planet-btn" onclick="window.location.href='/planet/trappist-1d'">TRAPPIST-1d</button>
 
-    <iframe src="https://giphy.com/embed/aAE6mWjuAEFCE" width="480" height="271" style="" frameBorder="0" allowFullScreen></iframe> <!--<p><a href="https://giphy.com/gifs/planet-lava-exoplanet-aAE6mWjuAEFCE"></a></p>-->
+   <!-- <iframe src="https://giphy.com/embed/aAE6mWjuAEFCE" width="480" height="271" style="" frameBorder="0" allowFullScreen></iframe>--> <!--<p><a href="https://giphy.com/gifs/planet-lava-exoplanet-aAE6mWjuAEFCE"></a></p>-->
 </body>
 </html>
