@@ -49,7 +49,7 @@ distances_from_exoplanet = np.sqrt(x_rel**2 + y_rel**2 + z_rel**2)
 
 # Recalculate the apparent brightness using the inverse square law
 # The apparent brightness (magnitude) from the exoplanet's point of view:
-# m_exo = m_earth - 5 * log10(d_exo / d_earth)
+# m_exo = m_earth - 5 * log10(d_exo / d_earth) - shoutout to my astrophysics stars and galaxies from last semester
 vmag_exo = vmag + 5 * np.log10(distances_from_exoplanet / distances)
 
 # Create a DataFrame to store the recalculated data
@@ -66,7 +66,7 @@ df_sorted = df.sort_values(by='Vmag_exo')
 # Select the top 200 brightest stars
 top_200_brightest = df_sorted.head(200)
 
-# Save the top 200 brightest stars to a CSV file (optional)
+# Save the top 200 brightest stars to a CSV file
 top_200_brightest.to_csv('top_200_brightest_exoplanet.csv', index=False)
 
 # Print the top 200 stars
