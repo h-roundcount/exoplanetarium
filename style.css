@@ -13,7 +13,7 @@ body {
     justify-content: center;
 }
 
-/* Import the space-style font */
+/* This is just a temporary font we can use until you guys find a cooler one */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 /* Style for the main container */
@@ -35,14 +35,14 @@ h1 {
     /*text-shadow: 0 0 10px #1fd2ff;*/
 }
 
-/* Subheading */
+/* I don't think we'll use this but I wanted to put it here just in case */
 h2 {
     font-size: 2em;
     margin: 0.5em 0;
     color: #1fd2ff;
 }
 
-/* Buttons for exoplanet selection */
+/* Buttons for exoplanet selection - replace with images of the planets, background removed */
 button {
     background-color: #1fd2ff;
     color: white;
