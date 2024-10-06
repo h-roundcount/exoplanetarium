@@ -1,0 +1,86 @@
+/* Space-themed background for the entire page */
+body {
+    background: url('../static/space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Import the space-style font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Style for the main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);  /* Transparent black background for content */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Headings */
+h1 {
+    font-size: 3.5em;
+    margin: 0.5em 0;
+    letter-spacing: 3px;
+    color: #00d1ff;
+    text-shadow: 0 0 10px #00d1ff;
+}
+
+/* Subheading */
+h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: #ffcc00;
+}
+
+/* Buttons for exoplanet selection */
+button {
+    background-color: #ff1f5a;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 31, 90, 0.8);
+}
+
+button:hover {
+    background-color: #ff5a8b;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    font-size: 0.9em;
+    color: #dddddd;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
